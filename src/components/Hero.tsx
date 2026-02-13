@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#25D366]/10 border border-[#25D366]/20 mb-8"
                 >
                     <span className="w-2 h-2 rounded-full bg-[#25D366] animate-pulse"></span>
-                    <span className="text-[#25D366] text-sm font-semibold tracking-wide uppercase">No Coding Required</span>
+                    <span className="text-[#25D366] text-sm font-semibold tracking-wide uppercase">📘 Complete PDF Guide</span>
                 </motion.div>
 
                 <motion.h1
@@ -32,8 +32,8 @@ const Hero: React.FC = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
-                    Automate WhatsApp Like a Pro <br className="hidden md:block" />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#25D366] to-[#00A8FF]">Without Writing Code</span>
+                    Learn to Build WhatsApp Automation <br className="hidden md:block" />
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#25D366] to-[#00A8FF]">With This Step-by-Step PDF Guide</span>
                 </motion.h1>
 
                 <motion.p
@@ -42,8 +42,7 @@ const Hero: React.FC = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
                 >
-                    Master N8n automation in 30 minutes - even if you've never coded before.
-                    Build powerful workflows that save you hours every day.
+                    Download our comprehensive PDF guide and learn how to set up N8n WhatsApp automation in 30 minutes - even if you've never coded before. Follow simple screenshots and copy-paste templates.
                 </motion.p>
 
                 <motion.div
@@ -56,7 +55,7 @@ const Hero: React.FC = () => {
                         onClick={scrollToPricing}
                         className="group relative px-8 py-4 bg-[#25D366] hover:bg-[#1db954] text-[#0A0F1E] font-bold text-lg rounded-full transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(37,211,102,0.4)] w-full md:w-auto flex items-center justify-center gap-2"
                     >
-                        Get Instant Access
+                        Download PDF Guide Now
                         <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                     </button>
 
@@ -77,7 +76,7 @@ const Hero: React.FC = () => {
                 >
                     <div className="flex items-center gap-2">
                         <CheckCircle className="w-5 h-5 text-[#25D366]" />
-                        <span>100% Beginner Friendly</span>
+                        <span>PDF + Templates Included</span>
                     </div>
                     <div className="flex items-center gap-2">
                         <CheckCircle className="w-5 h-5 text-[#25D366]" />

@@ -6,32 +6,32 @@ const features = [
     {
         icon: <Code2 className="w-8 h-8 text-[#25D366]" />,
         title: "Zero Coding Required",
-        description: "Forget Python or JavaScript. Build complex workflows using a visual drag-and-drop interface."
+        description: "Our PDF guide shows you how to build workflows using N8n's visual drag-and-drop interface. No programming needed."
     },
     {
         icon: <Zap className="w-8 h-8 text-[#00A8FF]" />,
         title: "Visual Step-by-Step",
-        description: "Every step is illustrated with screenshots and clear instructions. You can't get lost."
+        description: "The guide includes detailed screenshots for every step. Follow along visually and you can't get lost."
     },
     {
         icon: <Clock className="w-8 h-8 text-[#FF3B7D]" />,
         title: "Ready in 30 Minutes",
-        description: "Go from download to your first active automation in less time than a lunch break."
+        description: "Follow the PDF tutorial and set up your first automation in less time than a lunch break."
     },
     {
         icon: <Copy className="w-8 h-8 text-[#F59E0B]" />,
         title: "Copy-Paste Templates",
-        description: "Don't start from scratch. Use our battle-tested workflow templates for instant results."
+        description: "The guide includes ready-made N8n workflow templates. Just copy, paste, and customize them."
     },
     {
         icon: <BookOpen className="w-8 h-8 text-[#A855F7]" />,
         title: "Real-World Examples",
-        description: "Learn by doing with practical examples like auto-replies, lead capture, and notifications."
+        description: "The PDF teaches you with practical use cases like auto-replies, lead capture, and notifications."
     },
     {
         icon: <ShieldCheck className="w-8 h-8 text-[#10B981]" />,
         title: "Lifetime Updates",
-        description: "Get free updates whenever WhatsApp or N8n changes. Your guide stays current forever."
+        description: "When WhatsApp or N8n updates, we'll send you the updated PDF guide for free. Forever."
     }
 ];
 

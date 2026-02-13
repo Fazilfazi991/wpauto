@@ -25,8 +25,8 @@ const Pricing: React.FC = () => {
                             <div className="inline-block px-4 py-1 bg-red-500/20 text-red-500 text-xs font-bold rounded-full mb-4 animate-pulse">
                                 LIMITED TIME OFFER - 72% OFF
                             </div>
-                            <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">Complete WhatsApp Automation Bundle</h2>
-                            <p className="text-gray-400 mb-8">Everything you need to automate your business today.</p>
+                            <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">WhatsApp Automation PDF Guide</h2>
+                            <p className="text-gray-400 mb-8">Download the complete tutorial and start building your automation today.</p>
 
                             <div className="space-y-4 mb-8">
                                 {['Step-by-Step PDF Guide', 'Ready-to-use Workflow Templates', 'Integration Tutorials', 'Lifetime Updates', 'Community Access'].map((item, i) => (
@@ -54,7 +54,7 @@ const Pricing: React.FC = () => {
                                 onClick={() => setModalOpen(true)}
                                 className="w-full py-4 bg-[#25D366] hover:bg-[#1db954] text-[#0A0F1E] font-bold text-xl rounded-xl transition-all shadow-[0_0_20px_rgba(37,211,102,0.3)] hover:scale-105 mb-4"
                             >
-                                Buy Now
+                                Download PDF Now
                             </button>
 
                             <div className="flex items-center justify-center gap-2 text-gray-500 text-xs mt-4">
